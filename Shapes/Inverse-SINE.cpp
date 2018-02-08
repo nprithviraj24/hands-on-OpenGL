@@ -99,7 +99,7 @@ int main(int argc, char **argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGBA);
 	glutInitWindowSize(1000, 1000);
 	glutInitWindowPosition(100, 100);
-	glutCreateWindow("circle.cpp");
+	glutCreateWindow("Inverse-Sine.cpp");
 	glutDisplayFunc(drawScene);
 	glutReshapeFunc(resize);
 	glutKeyboardFunc(keyInput);
